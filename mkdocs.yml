@@ -5,17 +5,19 @@ repo_url: 'https://github.com/lushuyu/Bio-Wiki'
 
 theme:
   name: material
+  custom_dir: ./custom_theme/
   palette:
     primary: 'White'
     accent: 'Blue'
   feature:
     tabs: true
   
+  
 
 nav:
   - 首页: index.md
-  - 1: 
-      - 1: gd/index.md
+  - 细胞的能量供应和应用: 
+      - ATP和酶: 细胞的能量供应和应用/ATP和酶.md
 
 markdown_extensions:
   - admonition
@@ -23,7 +25,7 @@ markdown_extensions:
       guess_lang: false
       linenums: false
   - toc:
-      permalink: true
+      permalink: false
   - footnotes
   - meta
   - def_list
